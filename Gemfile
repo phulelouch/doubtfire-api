@@ -11,7 +11,7 @@ ruby_versions = {
 ruby ruby_versions[(ENV['RAILS_ENV'] || 'development').to_sym]
 
 # The venerable, almighty Rails
-gem 'rails', '~>7.0.0'
+gem 'rails', '~> 7.0.1'
 
 group :development, :test do
   gem "sprockets-rails"
@@ -63,7 +63,7 @@ gem 'rubyzip'
 gem 'moss_ruby', '>= 1.1.2'
 
 # Latex
-gem 'rails-latex', '>2.3'
+gem 'rails-latex', '>= 2.3.4'
 
 # API
 gem 'grape'
@@ -79,7 +79,7 @@ gem 'require_all', '>=1.3.3'
 gem 'bunny-pub-sub', '0.5.2'
 
 # Excel support
-gem 'roo', '~> 2.7.0'
+gem 'roo', '~> 2.7.1'
 gem 'roo-xls'
 
 # webcal generation
