@@ -11,7 +11,7 @@ ruby_versions = {
 ruby ruby_versions[(ENV['RAILS_ENV'] || 'development').to_sym]
 
 # The venerable, almighty Rails
-gem 'rails', '~>7.0.0'
+gem 'rails', '~> 7.0.5', '>= 7.0.5.1'
 
 group :development, :test do
   gem 'better_errors'
@@ -48,7 +48,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'hirb'
 
 # Authentication
-gem 'devise'
+gem 'devise', '>= 4.9.0'
 gem 'devise_ldap_authenticatable'
 gem 'json-jwt'
 gem 'ruby-saml', '~> 1.13.0'
@@ -69,12 +69,12 @@ gem 'rails-latex', '>2.3'
 gem 'grape'
 gem 'grape-entity'
 gem 'grape-swagger'
-gem 'grape-swagger-rails'
+gem 'grape-swagger-rails', '>= 0.4.0'
 
 # Miscellaneous
 gem 'bunny-pub-sub', '0.5.2'
 gem 'ci_reporter'
-gem 'dotenv-rails'
+gem 'dotenv-rails', '>= 2.8.0'
 gem 'rack-cors', require: 'rack/cors'
 gem 'require_all', '>=1.3.3'
 
