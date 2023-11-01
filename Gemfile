@@ -55,7 +55,7 @@ gem 'ruby-saml', '~> 1.13.0'
 
 # Student submission
 gem 'coderay'
-gem 'rmagick', '~> 4.1' # require: false #already included in other gems - remove to avoid duplicate errors
+gem 'rmagick', '~> 5.3', '>= 5.3.0' # require: false #already included in other gems - remove to avoid duplicate errors
 gem 'ruby-filemagic'
 gem 'rubyzip'
 
