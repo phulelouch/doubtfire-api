@@ -40,7 +40,7 @@ end
 gem 'mysql2'
 
 # Webserver - included in development and test and optionally in production
-gem 'puma', '~> 5.6'
+gem 'puma', '~> 5.6', '>= 5.6.8'
 
 gem 'bootsnap', '>= 1.4.4', require: false
 
