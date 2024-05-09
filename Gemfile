@@ -50,7 +50,7 @@ gem 'hirb'
 # Authentication
 gem 'devise'
 gem 'devise_ldap_authenticatable'
-gem 'json-jwt'
+gem 'json-jwt', '>= 1.15.3.1'
 gem 'ruby-saml', '~> 1.13.0'
 
 # Student submission
