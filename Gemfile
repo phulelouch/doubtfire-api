@@ -23,7 +23,7 @@ group :development, :test do
   gem 'rubocop-faker'
   gem 'rubocop-rails'
   gem 'simplecov', require: false
-  gem "sprockets-rails"
+  gem "sprockets-rails", ">= 3.5.0"
 end
 
 group :development, :test, :staging do
